@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.jpg" alt="reload"></a>
+            <div class="header-right" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="Courses.html">COURSES</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1> Our Certificates And Online Programs For 2021</h1>
+    </section>
+
+    <!-- Blog page content-->
+    <sention class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="certificate.jpg" >
+                <h2>Our Certificates And Online Programs For 2021</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus explicabo sint qui corporis ad repudiandae ea fugiat, nihil voluptatum odio!</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi neque dolores optio non quam blanditiis repellat obcaecati modi labore suscipit commodi, in voluptate magnam. Eos omnis, consectetur, ipsa reprehenderit expedita eaque temporibus, ad reiciendis praesentium corporis quam nihil rem similique.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam et fugiat excepturi rem ipsam sunt, aperiam placeat similique, dolorum fugit aliquid repellat deleniti deserunt nostrum, assumenda officia voluptate reiciendis ut.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit cupiditate assumenda hic sapiente obcaecati autem fuga alias porro. Doloremque, repudiandae?</p>
+                <br>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form  class="comment-form">
+                        <input type="text" placeholder="Enter Your Name">
+                        <input type="email" placeholder="Enter Your email">
+                        <textarea rows="5" placeholder="Write Your Commemt Here"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Comment</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+            </div>
+        </div>
+    </sention>
+    
+    <!-- Footer -->
+    <section class="footer">
+        <h4> About Us </h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> omnis sequi quis dolores minima tempora, cupiditate fugit. Assumenda perspiciatis fugiat tenetur id accusamus? <br>Quas consequatur esse eum dolor neque at?</p>
+        <div class="icons">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter-square"></i>
+        </div>
+        </section>
+
+
+
+
+    <!---Adding Javascript for Toggle Menu-->
+    <script>
+        var navLinks=document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+</body>
+</html>
